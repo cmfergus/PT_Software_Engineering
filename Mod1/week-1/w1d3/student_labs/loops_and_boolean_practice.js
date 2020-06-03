@@ -1,6 +1,6 @@
 // Create a loop that will print "hi" 15 times.
 
-/* let num=0
+let num=0
 while (num <= 15) {
     console.log("hi");
     num++;
@@ -43,7 +43,7 @@ for (let i=0; i < 10; i++) {
 } else if (some_num > 20) {
     console.log("that's a big number");
 };
-*/
+
 // Booleans & Loops - Part 2
 
 var fav_day="Monday"
