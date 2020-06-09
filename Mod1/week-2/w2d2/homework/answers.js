@@ -7,20 +7,20 @@ while (num <= 20) {
     console.log(num);
     num++;
 };
-*/
+
 
 
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
 
-/* 
+
 var i; 
 for (i=0; i <= 200; i++)
 if ((i % 2) == 0) {
     console.log(i);
 };
-*/
+
 
 
 ////////////////////////////////
@@ -60,11 +60,16 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down", "Hawkins"]
 // Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
 
 const Gameboy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-
+*/
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
 
+const turles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (name of turles){
+    let yellAtTurtles = name.toUpperCase();
+    console.log(yellAtTurtles);
+}
 
 ////////////////////////////////
 // Methods, Revisited
