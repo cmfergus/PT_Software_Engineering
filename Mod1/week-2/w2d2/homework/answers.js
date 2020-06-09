@@ -65,15 +65,35 @@ const Gameboy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 // Yell at the Ninja Turtles
 ////////////////////////////////
 
-const turles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
-for (name of turles){
-    let yellAtTurtles = name.toUpperCase();
-    console.log(yellAtTurtles);
-}
+// const turles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// for (name of turles){
+ //   let yellAtTurtles = name.toUpperCase();
+  //  console.log(yellAtTurtles);
+// }
 
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+
+const favMovies = ["Jaws", "The Fellowship of the Ring", "Howl's Moving Castle", "Django Unchained", "Cloud Atlas", "The Usual Suspects", "Toy Story", "Conan the Barbarian", "Titanic", "Harry Potter", "Fried Green Tomatoes", "Volver", "Oculus", "Seven", "Black Panther", "Harry Potter Sorceror Stone", "Imitation of Life", "Snatch", "Fast and Furious"];
+console.log(favMovies.indexOf('Titanic'));
+favMovies.sort();
+// the sort method sorts the elements in place and returns the sorted result in ascending order. 
+favMovies.pop();
+favMovies.push("Guardians of the Galaxy");
+favMovies.reverse();
+favMovies.shift("Fast and Furious");
+favMovies.unshift("Fast and Furious");
+var Remove = favMovies.splice(-4,1);
+// removed Django Unchained from the list
+favMovies.splice(3, 1, "Avatar");
+// this permanentely changed our array because Django Unchained was removed from being element 3. But I still see it on the list? 
+favMovies.slice(9, 18)
+var newFavMovies = favMovies.slice();
+console.log(newFavMovies);
+console.log(favMovies);
+console.log(favMovies.indexOf('Fast and Furious'));
+// we get the value of 0 because we removed it 
 
 
 ////////////////////////////////
