@@ -2,27 +2,52 @@
 // Easy Going
 ////////////////////////////////
 
-let num=0
+/* let num=0
 while (num <= 20) {
     console.log(num);
     num++;
 };
+*/
 
 
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
 
+/* 
 var i; 
 for (i=0; i <= 200; i++)
 if ((i % 2) == 0) {
     console.log(i);
 };
+*/
 
 
 ////////////////////////////////
 // Fizz Buzz
 ////////////////////////////////
+
+var i; 
+for (i=1; i <= 100; i++)
+if ((i % 3) == 0) {
+    console.log("Fizz");
+} else if (i % 3 == 0 && i % 5 == 0) {
+    console.log("Fizzbuzz");
+} else if ((i % 5) == 0) {
+    console.log("Buzz");
+} else if (i % 3 == 0 && i % 5 == 0) {
+    console.log("Fizzbuzz");
+};
+
+var i; 
+for (i=1; i <= 100; i++)
+if (i % 3 == 0 && i % 5 == 0) {
+    console.log("FizzBuzz");
+} else if (i % 3 == 0) {
+    console.log("Fizz");
+} else if ((i % 5) == 0) {
+    console.log("Buzz");
+};
 
 
 ////////////////////////////////
