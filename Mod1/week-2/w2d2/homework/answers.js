@@ -2,7 +2,7 @@
 // Easy Going
 ////////////////////////////////
 
-/* let num=0
+ let num=0
 while (num <= 20) {
     console.log(num);
     num++;
@@ -60,16 +60,16 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down", "Hawkins"]
 // Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
 
 const Gameboy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-*/
+
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
 
-// const turles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
-// for (name of turles){
- //   let yellAtTurtles = name.toUpperCase();
-  //  console.log(yellAtTurtles);
-// }
+const turles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (name of turles){
+ let yellAtTurtles = name.toUpperCase();
+ console.log(yellAtTurtles);
+};
 
 ////////////////////////////////
 // Methods, Revisited
@@ -99,13 +99,22 @@ console.log(favMovies.indexOf('Fast and Furious'));
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
+// var Remove = whereIsWaldo.splice(1,1);  
+// console.log(whereIsWaldo);
+                
+I am stuck here
 
 
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+ 
+I am not sure how to do this part
+
 
 
 ////////////////////////////////
 //  Find the Median
 ////////////////////////////////
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
